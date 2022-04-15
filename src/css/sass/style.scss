@@ -1,0 +1,40 @@
+@import "container";
+@import "header";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+$black: #000;
+$lighterBlack: #181617;
+$orange: #bd966a;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+p {
+  color: #bd966a;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  padding-bottom: 35px;
+  font-size: 28px;
+  line-height: 32px;
+
+  @media (min-width: 768px), (min-width: 1366px) {
+      font-size: 36px;
+      line-height: 40px;
+  }
+}
+

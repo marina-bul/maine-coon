@@ -1,0 +1,21 @@
+$black: #000;
+$lighterBlack: #181617;
+$orange: #bd966a;
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  text-align: center;
+  background-color: $black;
+
+  @media (min-width: 768px), (min-width: 1366px) {
+      width: auto;
+      font-size: 16px;
+      line-height: 20px;
+  }
+
+}
